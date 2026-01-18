@@ -1,6 +1,6 @@
 # British Airways Reviews Sentiment Analysis
 
-## 📊 Project Overview
+## Project Overview
 
 This project implements a comprehensive sentiment analysis study on British Airways customer reviews using both classical machine learning and deep learning approaches. The analysis compares multiple models to identify the most effective approach for sentiment classification.
 
@@ -28,7 +28,7 @@ This project implements a comprehensive sentiment analysis study on British Airw
 
 ---
 
-## 🤖 Models Implemented
+## Models Implemented
 
 ### Classical Machine Learning Models
 
@@ -81,7 +81,7 @@ The following NLTK datasets are required:
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Step 1: Clone the Repository
 
@@ -137,7 +137,7 @@ python -c "import nltk; nltk.download('stopwords'); nltk.download('wordnet'); nl
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### Option 1: Run Jupyter Notebook (Recommended)
 
@@ -179,7 +179,7 @@ The notebook is organized in the following steps:
 
 ---
 
-## 📈 Results & Performance
+## Results & Performance
 
 ### Model Performance Comparison
 
@@ -204,11 +204,11 @@ The notebook is organized in the following steps:
 #### Model Insights
 
 **Classical ML Advantages:**
-- ✅ Fast training and inference
-- ✅ Memory efficient
-- ✅ Interpretable results
-- ✅ No GPU required
-- ✅ Excellent performance with proper feature engineering
+- Fast training and inference
+- Memory efficient
+- Interpretable results
+- No GPU required
+- Excellent performance with proper feature engineering
 
 **Deep Learning (BERT) Observations:**
 - Moderate performance (F1: 69%)
@@ -219,7 +219,7 @@ The notebook is organized in the following steps:
 
 ---
 
-## 🎓 Conclusion
+## Conclusion
 
 ### Summary
 
@@ -236,15 +236,15 @@ This comprehensive sentiment analysis project successfully implemented and compa
 
 ### Key Takeaways
 
-✅ **Model Selection Depends On**:
+**Model Selection Depends On**:
    - Dataset size and complexity
    - Available computational resources
    - Deployment constraints
    - Performance vs. efficiency trade-offs
 
-✅ **Feature Engineering Matters**: TF-IDF with n-grams (unigrams + bigrams) effectively captured sentiment patterns
+**Feature Engineering Matters**: TF-IDF with n-grams (unigrams + bigrams) effectively captured sentiment patterns
 
-✅ **Practical Recommendations**:
+**Practical Recommendations**:
    - For production: Use **Optimized SVM** (best performance-efficiency balance)
    - For experimentation: Ensemble methods combining multiple models
    - For improvement: Collect more training data, especially for neutral class
@@ -267,7 +267,7 @@ This comprehensive sentiment analysis project successfully implemented and compa
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 AML-Coursework/
@@ -288,13 +288,13 @@ AML-Coursework/
 
 ---
 
-## 👤 Author
+## Author
 
 **Applied Machine Learning Coursework**
 
 ---
 
-## 📄 License
+## License
 
 See LICENSE file for details
 - **Approach**: Exhaustive search over parameter grid
@@ -389,13 +389,13 @@ See LICENSE file for details
 
 ---
 
-## 📈 Results Summary
+## Results Summary
 
 ### Performance Comparison Table
 
 | Model | Accuracy | Precision | Recall | F1-Score | Training Time |
 |-------|----------|-----------|--------|----------|---------------|
-| **Optimized SVM (GridSearch)** ⭐ | **77.84%** | **78.05%** | **77.84%** | **77.92%** | ~178s |
+| **Optimized SVM (GridSearch)**  | **77.84%** | **78.05%** | **77.84%** | **77.92%** | ~178s |
 | Linear SVM (Baseline) | 79.32% | 73.22% | 79.32% | 73.99% | 16.21s |
 | RBF SVM (Baseline) | 80.00% | 65.54% | 80.00% | 71.97% | 21.11s |
 | Polynomial SVM | 77.03% | 72.35% | 77.03% | 70.55% | 22.55s |
@@ -417,13 +417,13 @@ See LICENSE file for details
 | Positive | 85.2% | 95.5% | 90.0% | 265 |
 
 **Key Insights**:
-- ✅ **Excellent performance** on Negative and Positive sentiments
-- ⚠️ **Poor performance** on Neutral class (likely due to class imbalance and ambiguous nature)
-- 📊 Overall weighted F1-score accounts for class imbalance
+- **Excellent performance** on Negative and Positive sentiments
+- **Poor performance** on Neutral class (likely due to class imbalance and ambiguous nature)
+- Overall weighted F1-score accounts for class imbalance
 
 ---
 
-## 🏆 Best Model Selection
+##  Best Model Selection
 
 ### Winner: **Optimized SVM with GridSearchCV** (Confirmed)
 
@@ -444,7 +444,7 @@ See LICENSE file for details
 
 ---
 
-## 🎓 Key Learnings & Insights
+## Key Learnings & Insights
 
 ### 1. Class Imbalance Impact
 - Neutral class (18.3%) significantly underperforms
@@ -473,7 +473,7 @@ See LICENSE file for details
 
 ---
 
-## 💡 Recommendations
+## Recommendations
 
 ### For Production Deployment
 1. **Use Optimized SVM** (C=1.0, class_weight='balanced') for balance of speed and performance
@@ -490,7 +490,7 @@ See LICENSE file for details
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3.13**
 - **scikit-learn**: SVM, ensemble methods, preprocessing
@@ -501,7 +501,7 @@ See LICENSE file for details
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 AML-Coursework/
@@ -513,7 +513,7 @@ AML-Coursework/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ```bash
 # 1. Clone the repository
@@ -532,42 +532,42 @@ jupyter notebook coursework.ipynb
 
 ---
 
-## 📊 Execution Summary
+## Execution Summary
 
 ### Baseline Models
-- ✅ Executed successfully
-- ⏱️ Total time: ~60 seconds
-- 📈 Best baseline: Linear SVM (73.99% F1)
+- Executed successfully
+- Total time: ~60 seconds
+- Best baseline: Linear SVM (73.99% F1)
 
 ### Hyperparameter Optimization
-- ✅ GridSearchCV completed
-- ⏱️ Time: ~178 seconds (40 fits)
-- 📈 Optimized result: 77.92% F1 (+3.93%)
+- GridSearchCV completed
+- Time: ~178 seconds (40 fits)
+- Optimized result: 77.92% F1 (+3.93%)
 
 ### Advanced Techniques (Partially Executed)
-- ⚠️ Some advanced cells pending full execution
-- 📋 Expected total runtime: ~20-30 minutes for all approaches
-- 🎯 Expected best result: 80-83% F1 (Stacking Ensemble)
+- Some advanced cells pending full execution
+- Expected total runtime: ~20-30 minutes for all approaches
+- Expected best result: 80-83% F1 (Stacking Ensemble)
 
 ---
 
-## 📝 Conclusion
+## Conclusion
 
 This project demonstrates a comprehensive approach to sentiment analysis using SVM and multiple optimization techniques. The optimized SVM with class balancing achieved **77.92% F1-score**, representing a **3.93% improvement** over the baseline.
 
 Key achievements:
-- ✅ Robust data preprocessing pipeline
-- ✅ Multiple SVM kernels evaluated
-- ✅ Hyperparameter optimization with cross-validation
-- ✅ Class imbalance handling
-- ✅ Framework for ensemble methods
-- ✅ Comprehensive evaluation metrics
+- Robust data preprocessing pipeline
+- Multiple SVM kernels evaluated
+- Hyperparameter optimization with cross-validation
+- Class imbalance handling
+- Framework for ensemble methods
+- Comprehensive evaluation metrics
 
 The study provides a solid foundation for production deployment and demonstrates best practices in machine learning model optimization.
 
 ---
 
-## 👤 Author
+## Author
 
 **Apil Ghimire**  
 Advanced Machine Learning Coursework  
@@ -575,13 +575,13 @@ December 2025
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the terms specified in the LICENSE file.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - British Airways reviews dataset
 - scikit-learn documentation and community
