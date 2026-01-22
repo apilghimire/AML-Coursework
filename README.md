@@ -16,7 +16,7 @@ This project implements a comprehensive sentiment analysis study on British Airw
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 1. **Data Exploration & Cleaning**: Handle missing values, outliers, and duplicates
 2. **Text Preprocessing**: Apply NLP techniques for feature extraction
@@ -55,7 +55,7 @@ This project implements a comprehensive sentiment analysis study on British Airw
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 ### Required Libraries
 
@@ -185,7 +185,7 @@ The notebook is organized in the following steps:
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |-------|----------|-----------|--------|----------|
-| **Optimized SVM (GridSearch)** ⭐ | **77.84%** | **78.21%** | **77.65%** | **77.92%** |
+| **Optimized SVM (GridSearch)** | **77.84%** | **78.21%** | **77.65%** | **77.92%** |
 | Linear SVM | 79.32% | 74.18% | 73.82% | 73.99% |
 | RBF SVM | 80.00% | 72.45% | 71.51% | 71.97% |
 | Polynomial SVM | 77.03% | 72.35% | 70.88% | 70.55% |
@@ -307,7 +307,7 @@ See LICENSE file for details
   - Accuracy: 77.84%
   - Precision: 78.05%
   - Recall: 77.84%
-  - **F1-Score: 77.92%** ⭐
+  - **F1-Score: 77.92%** 
   - **Improvement over baseline**: +3.93%
 
 #### 5. RandomizedSearchCV
